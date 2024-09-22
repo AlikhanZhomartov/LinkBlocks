@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockConnect</title>
+  <link rel="stylesheet" href="blockConnect.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <h2>Инструкция</h2>
+    <ul>
+      <li>Кликните на поле, чтобы выбрать фигуру.</li>
+      <li>Перетащите фигуру, удерживая на ней левую кнопку мыши.</li>
+      <li>Дважды кликните на фигуре, чтобы начать соединение.</li>
+      <li>Дважды кликните на другой фигуре, чтобы завершить соединение линией.</li>
+    </ul>
+  </div>
+  <div class="field">
+    <canvas id="canvas" width="1200" height="900"></canvas> 
+
+    <div id="shape-menu" class="hidden">
+      <button class="shape-option" data-shape="square">Квадрат</button>
+      <button class="shape-option" data-shape="circle">Круг</button>
+      <button class="shape-option" data-shape="triangle">Треугольник</button>
+    </div>
+  </div>
+
+  <script src="blockConnect.js"></script>
+</body>
+
+</html>
